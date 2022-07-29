@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        
+        <link rel = "Stylesheet" type ="text/css" href = "../styles/styles.css">
+        <title>Landing Page</title>
+        <style>
+            .signup-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+  footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .quote-txt {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dark-bckgrd .hero-img {
+    width: 500px;
+  }
+  .illus {
+    width: 200px;
+  }
+  .dark-bckgrd .hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+  }
+  .dark-bckgrd {
+    background-color: #1f2937;
+  }
+  .quote-bckgrd {
+    background-color: #e5e7eb;
+  }
+  .quote-bckgrd .quote-txt {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    opacity: 0.6;
+  }
+  .dark-bckgrd .hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+  }
+  .dark-bckgrd .hero-sec {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .nav-link-div {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+  }
+  footer span {
+    padding-bottom: 20px;
+  }
+  .blue-div div {
+    background-color: #3883f6;
+    border-radius: 10px;
+  }
+  .blue-div div strong {
+    color: white;
+    font-size: 24px;
+  }
+  .blue-div div p {
+    color: white;
+    font-size: 16px;
+  }
+  .blue-div {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blue-div div {
+    display: flex;
+  }
+  .blue-div div .signup-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .blue-div div div {
+    margin: 50px;
+  }
+  .dark-bckgrd .img {
+    width: 500px;
+  }
+  .random{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+  }
+  .random .pics {
+    display: flex;
+    justify-content: space-around;
+  }
+  .random .info-header {
+    margin: 0px auto;
+    
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .hero-img{
+    display: flex;
+    justify-content: right;
+    height: 215px;
+  }
+  .quote-div span {
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  .right{
+    flex-shrink: 0;
+    width: 50%;
+    justify-content: center;
+}
+div {
+  display: block;
+}
+        </style>
+    </head>
+    <body>
+        <header class = "dark-bckgrd">
+        <nav>
+            <div>
+                <span class = "hero-logo">Header Logo</span>
+            </div>
+            <div class = "hero-sec nav-link-div">
+                <a>Link one</a>
+                <a>link two</a>
+                <a>link three</a>
+            
+            </div>
+        </nav>
+
+        <div class="hero-div">
+            <div class = "hero-main-div">
+                <h1 class = "hero-main">Un site des sages.</h1>
+                <p  class = "hero-sec">
+                    "Connaitre les autres c'est sagesse; se connaitre soi-meme c'est sagesse superieure."
+
+                </p>
+                <button class = "signup-btn">S'inscrire</button>
+
+            </div>
+            <div class="right">
+            <div class ="hero-img">
+                <img src="./image/sagesse.png" alt = "sorry it couldn't load"/>
+             </div>
+            </div>
+
+        </div>
+        </header>
+
+<!--some random info-->
+
+<div class = "random">
+    <div class="info-header"><span><h2>Some random information</h2></span></div>
+    <div class="pics">
+        <div class="illus">
+            <img src="./image/illus.png" alt ="couldn't load"/>
+            <p>Knowing others is wisdom; Knowing yourself is superiour wisdom</p>
+        </div>
+
+        <div class="illus">
+            <img src="./image/illus.png" alt ="couldn't load"/>
+            <p>Knowing others is wisdom; Knowing yourself is superiour wisdom</p>
+        </div>
+
+
+        <div class="illus">
+            <img src="./image/illus.png" alt ="couldn't load"/>
+            <p>Knowing others is wisdom; Knowing yourself is superiour wisdom</p>
+        </div>
+
+        <div class="illus">
+            <img src="./image/illus.png" alt ="couldn't load"/>
+            <p>Knowing others is wisdom; Knowing yourself is superiour wisdom</p>
+        </div>
+    </div>
+</div>
+<!--Quote-->
+
+<div class = "quote-bckgrd quote-div">
+    <div>
+        <p class ="quote-txt">
+            "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.”
+            
+        </p>
+        <span>
+            -Isaac Asimov
+        </span>
+    </div>
+
+</div>
+<!--sign-up btn-->
+<div class="blue-div">
+    <div>
+    <div class = "signup-div">
+        <strong>Call to action it's time!</strong>
+        <p>Sign Up for our product by clicking that button</p>
+
+   </div>
+   <div>
+        <button class = "signup-btn">Sign up</button>
+   </div>
+
+</div>
+</div>
+<!--Footer-->
+<footer class = "dark-bckgrd">
+    <span class = "hero-sec">Copy right @ The Odin Project 2022</span>
+</footer>
+
+    </body>
+</html>
